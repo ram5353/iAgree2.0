@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        BottomTextLineSpacing()
-        TopTextLineSpacing()
-        
+//        BottomTextLineSpacing()
+//        TopTextLineSpacing()
+//
     }
     
     func BottomTextLineSpacing() {
@@ -45,6 +45,8 @@ class ViewController: UIViewController {
         TopTextView.attributedText = attrString
         TopTextView.textAlignment = NSTextAlignment.left
     }
+    
+
     
     
     

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81AA822523B9F45B0054FFF6 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA822423B9F45B0054FFF6 /* ViewController1.swift */; };
+		81AA822923BA07A20054FFF6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA822823BA07A20054FFF6 /* RoundButton.swift */; };
+		81AA822B23BA12C70054FFF6 /* TermsAndConditionsData.html in Resources */ = {isa = PBXBuildFile; fileRef = 81AA822A23BA12C70054FFF6 /* TermsAndConditionsData.html */; };
 		EE46E6E123A1167900B18C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46E6E023A1167900B18C60 /* AppDelegate.swift */; };
 		EE46E6E323A1167900B18C60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46E6E223A1167900B18C60 /* SceneDelegate.swift */; };
 		EE46E6E523A1167900B18C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46E6E423A1167900B18C60 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81AA822423B9F45B0054FFF6 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		81AA822823BA07A20054FFF6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		81AA822A23BA12C70054FFF6 /* TermsAndConditionsData.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TermsAndConditionsData.html; sourceTree = "<group>"; };
 		EE46E6DD23A1167900B18C60 /* iAgree2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAgree2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE46E6E023A1167900B18C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE46E6E223A1167900B18C60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +68,10 @@
 				EE46E6E623A1167900B18C60 /* Main.storyboard */,
 				EE46E6E923A1167D00B18C60 /* Assets.xcassets */,
 				EE46E6EB23A1167D00B18C60 /* LaunchScreen.storyboard */,
+				81AA822A23BA12C70054FFF6 /* TermsAndConditionsData.html */,
 				EE46E6EE23A1167D00B18C60 /* Info.plist */,
+				81AA822423B9F45B0054FFF6 /* ViewController1.swift */,
+				81AA822823BA07A20054FFF6 /* RoundButton.swift */,
 			);
 			path = iAgree2.0;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE46E6ED23A1167D00B18C60 /* LaunchScreen.storyboard in Resources */,
+				81AA822B23BA12C70054FFF6 /* TermsAndConditionsData.html in Resources */,
 				EE46E6EA23A1167D00B18C60 /* Assets.xcassets in Resources */,
 				EE46E6E823A1167900B18C60 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AA822523B9F45B0054FFF6 /* ViewController1.swift in Sources */,
+				81AA822923BA07A20054FFF6 /* RoundButton.swift in Sources */,
 				EE46E6E523A1167900B18C60 /* ViewController.swift in Sources */,
 				EE46E6E123A1167900B18C60 /* AppDelegate.swift in Sources */,
 				EE46E6E323A1167900B18C60 /* SceneDelegate.swift in Sources */,
