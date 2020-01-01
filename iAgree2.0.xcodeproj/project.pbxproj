@@ -10,6 +10,10 @@
 		81AA822523B9F45B0054FFF6 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA822423B9F45B0054FFF6 /* ViewController1.swift */; };
 		81AA822923BA07A20054FFF6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA822823BA07A20054FFF6 /* RoundButton.swift */; };
 		81AA822B23BA12C70054FFF6 /* TermsAndConditionsData.html in Resources */ = {isa = PBXBuildFile; fileRef = 81AA822A23BA12C70054FFF6 /* TermsAndConditionsData.html */; };
+		81E1C8C523BD096A00C8422E /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1C8C423BD096A00C8422E /* InboxViewController.swift */; };
+		81E1C8C723BD0A8000C8422E /* OutboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1C8C623BD0A8000C8422E /* OutboxViewController.swift */; };
+		81E1C8C923BD0A9200C8422E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1C8C823BD0A9200C8422E /* HistoryViewController.swift */; };
+		81E1C8CB23BD0AA000C8422E /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1C8CA23BD0AA000C8422E /* MoreViewController.swift */; };
 		EE46E6E123A1167900B18C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46E6E023A1167900B18C60 /* AppDelegate.swift */; };
 		EE46E6E323A1167900B18C60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46E6E223A1167900B18C60 /* SceneDelegate.swift */; };
 		EE46E6E523A1167900B18C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE46E6E423A1167900B18C60 /* ViewController.swift */; };
@@ -22,6 +26,10 @@
 		81AA822423B9F45B0054FFF6 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		81AA822823BA07A20054FFF6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		81AA822A23BA12C70054FFF6 /* TermsAndConditionsData.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TermsAndConditionsData.html; sourceTree = "<group>"; };
+		81E1C8C423BD096A00C8422E /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		81E1C8C623BD0A8000C8422E /* OutboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutboxViewController.swift; sourceTree = "<group>"; };
+		81E1C8C823BD0A9200C8422E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		81E1C8CA23BD0AA000C8422E /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		EE46E6DD23A1167900B18C60 /* iAgree2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAgree2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE46E6E023A1167900B18C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE46E6E223A1167900B18C60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +80,10 @@
 				EE46E6EE23A1167D00B18C60 /* Info.plist */,
 				81AA822423B9F45B0054FFF6 /* ViewController1.swift */,
 				81AA822823BA07A20054FFF6 /* RoundButton.swift */,
+				81E1C8C423BD096A00C8422E /* InboxViewController.swift */,
+				81E1C8C623BD0A8000C8422E /* OutboxViewController.swift */,
+				81E1C8C823BD0A9200C8422E /* HistoryViewController.swift */,
+				81E1C8CA23BD0AA000C8422E /* MoreViewController.swift */,
 			);
 			path = iAgree2.0;
 			sourceTree = "<group>";
@@ -148,11 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E1C8CB23BD0AA000C8422E /* MoreViewController.swift in Sources */,
 				81AA822523B9F45B0054FFF6 /* ViewController1.swift in Sources */,
+				81E1C8C523BD096A00C8422E /* InboxViewController.swift in Sources */,
 				81AA822923BA07A20054FFF6 /* RoundButton.swift in Sources */,
 				EE46E6E523A1167900B18C60 /* ViewController.swift in Sources */,
 				EE46E6E123A1167900B18C60 /* AppDelegate.swift in Sources */,
 				EE46E6E323A1167900B18C60 /* SceneDelegate.swift in Sources */,
+				81E1C8C723BD0A8000C8422E /* OutboxViewController.swift in Sources */,
+				81E1C8C923BD0A9200C8422E /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

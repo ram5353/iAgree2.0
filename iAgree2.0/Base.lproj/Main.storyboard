@@ -3,6 +3,7 @@
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -157,7 +158,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="HTy-7V-7f6" kind="show" id="TNJ-Nm-qQO"/>
+                                    <segue destination="atk-3m-oj9" kind="show" id="vHt-Fb-4zM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kN-VO-KCd" customClass="RoundButton" customModule="iAgree2_0" customModuleProvider="target">
@@ -185,7 +186,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" name="ViewChanges"/>
                         <constraints>
                             <constraint firstItem="rap-hK-MKJ" firstAttribute="bottom" secondItem="eBz-r6-NPM" secondAttribute="bottom" constant="180" id="74h-bw-M5n"/>
                             <constraint firstItem="8kN-VO-KCd" firstAttribute="leading" secondItem="rap-hK-MKJ" secondAttribute="leading" constant="20" id="7ZC-lB-6oL"/>
@@ -211,21 +212,90 @@
             </objects>
             <point key="canvasLocation" x="1857.9710144927537" y="469.56521739130437"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="WtY-la-Uhk">
+        <!--Outbox-->
+        <scene sceneID="6iY-3I-wih">
             <objects>
-                <viewController id="HTy-7V-7f6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eaO-bR-nac">
+                <viewController id="0Sw-Nf-pVR" customClass="OutboxViewController" customModule="iAgree2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iR2-3n-kH4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="5Tt-GG-bFQ"/>
+                        <color key="backgroundColor" name="ViewChanges"/>
+                        <viewLayoutGuide key="safeArea" id="c4O-KA-YJh"/>
                     </view>
-                    <navigationItem key="navigationItem" id="WSR-mF-Zql"/>
+                    <tabBarItem key="tabBarItem" title="Outbox" image="square.and.arrow.up" catalog="system" id="AHW-gC-RDW"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7XU-v0-tSY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5bQ-ta-6IF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2675" y="470"/>
+            <point key="canvasLocation" x="3777" y="584"/>
+        </scene>
+        <!--more-->
+        <scene sceneID="e7Q-aG-tOf">
+            <objects>
+                <viewController id="Fw5-9v-VW6" customClass="MoreViewController" customModule="iAgree2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xj9-93-PyW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="ViewChanges"/>
+                        <viewLayoutGuide key="safeArea" id="cwm-Bz-bEh"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="more" image="ellipsis" catalog="system" id="X0n-LO-MI8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OyH-iS-PKb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2858" y="1149"/>
+        </scene>
+        <!--History-->
+        <scene sceneID="eiD-Cp-Rvz">
+            <objects>
+                <viewController id="VxT-0B-TzV" customClass="HistoryViewController" customModule="iAgree2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cLh-AG-MVO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="ViewChanges"/>
+                        <viewLayoutGuide key="safeArea" id="HVH-c7-Xtu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="History" image="calendar" catalog="system" id="aSL-S8-lOv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OF6-QK-G5B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3807" y="1301"/>
+        </scene>
+        <!--Inbox-->
+        <scene sceneID="nmj-uW-N6F">
+            <objects>
+                <viewController id="g4b-FW-84e" customClass="InboxViewController" customModule="iAgree2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oTU-6l-6hm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="ViewChanges"/>
+                        <viewLayoutGuide key="safeArea" id="9tM-oq-5dr"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Inbox" image="square.and.arrow.down" catalog="system" id="p1j-ix-8eW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Y6-u9-0Iy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3777" y="-75"/>
+        </scene>
+        <!--Inbox-->
+        <scene sceneID="zTS-kK-IV1">
+            <objects>
+                <tabBarController id="atk-3m-oj9" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Inbox" id="9Mx-gt-Bmd"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w2V-tW-D73">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="g4b-FW-84e" kind="relationship" relationship="viewControllers" id="Ohq-6k-ncb"/>
+                        <segue destination="0Sw-Nf-pVR" kind="relationship" relationship="viewControllers" id="YSI-mh-Kzo"/>
+                        <segue destination="VxT-0B-TzV" kind="relationship" relationship="viewControllers" id="vpG-wF-3Vf"/>
+                        <segue destination="Fw5-9v-VW6" kind="relationship" relationship="viewControllers" id="Fq3-pf-Qna"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gFS-Zc-Iwk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2859" y="255"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EiS-eE-9bJ">
@@ -311,7 +381,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XHP-Br-olN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.0" green="0.11764705882352941" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.1176470588" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -329,6 +399,13 @@
     </scenes>
     <resources>
         <image name="Image Placeholder" width="223.33332824707031" height="125.33333587646484"/>
+        <image name="calendar" catalog="system" width="64" height="52"/>
         <image name="download1" width="50" height="66.666664123535156"/>
+        <image name="ellipsis" catalog="system" width="64" height="18"/>
+        <image name="square.and.arrow.down" catalog="system" width="60" height="64"/>
+        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
+        <namedColor name="ViewChanges">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
