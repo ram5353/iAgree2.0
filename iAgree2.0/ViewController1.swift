@@ -34,7 +34,12 @@ class ViewController1: UIViewController {
     }
     
     
-
+    
+    @IBAction func quitTheApp(_ sender: UIButton) {
+        
+        exit(0)
+    }
+    
     
 
     /*

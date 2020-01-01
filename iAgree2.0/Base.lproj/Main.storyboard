@@ -32,7 +32,7 @@
                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="33"/>
                                                 </variation>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="download1" translatesAutoresizingMaskIntoConstraints="NO" id="zIa-pp-Fhf">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="download1" translatesAutoresizingMaskIntoConstraints="NO" id="zIa-pp-Fhf">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="62"/>
                                                 <variation key="heightClass=regular-widthClass=compact" insetsLayoutMarginsFromSafeArea="YES"/>
                                             </imageView>
@@ -47,11 +47,14 @@
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="Wjl-RZ-qaJ" secondAttribute="bottom" constant="19.329999999999998" id="590-W3-2BM"/>
                                             <constraint firstAttribute="trailing" secondItem="pY6-Fg-0nb" secondAttribute="trailing" constant="35" id="8RZ-ua-GV4"/>
+                                            <constraint firstItem="zIa-pp-Fhf" firstAttribute="leading" secondItem="CTj-Am-Vdw" secondAttribute="leading" id="8Xb-tH-kRO"/>
                                             <constraint firstItem="pY6-Fg-0nb" firstAttribute="top" secondItem="CTj-Am-Vdw" secondAttribute="top" constant="15" id="FXQ-Pu-gaa"/>
                                             <constraint firstItem="Wjl-RZ-qaJ" firstAttribute="leading" secondItem="CTj-Am-Vdw" secondAttribute="leading" constant="20" id="Fx6-Wm-IFf"/>
                                             <constraint firstItem="pY6-Fg-0nb" firstAttribute="leading" secondItem="CTj-Am-Vdw" secondAttribute="leading" constant="35" id="IQR-7L-4YH"/>
+                                            <constraint firstItem="Wjl-RZ-qaJ" firstAttribute="top" secondItem="zIa-pp-Fhf" secondAttribute="bottom" constant="21" id="Yu6-WR-rd4"/>
                                             <constraint firstItem="Wjl-RZ-qaJ" firstAttribute="top" secondItem="CTj-Am-Vdw" secondAttribute="top" constant="83" id="g0I-eY-n0r"/>
                                             <constraint firstItem="pY6-Fg-0nb" firstAttribute="centerY" secondItem="zIa-pp-Fhf" secondAttribute="centerY" id="oll-vh-OZp"/>
+                                            <constraint firstItem="zIa-pp-Fhf" firstAttribute="centerX" secondItem="pY6-Fg-0nb" secondAttribute="centerX" id="sm5-3S-gnX"/>
                                             <constraint firstItem="Wjl-RZ-qaJ" firstAttribute="top" secondItem="pY6-Fg-0nb" secondAttribute="bottom" constant="37" id="usF-jf-CLa"/>
                                             <constraint firstAttribute="trailing" secondItem="Wjl-RZ-qaJ" secondAttribute="trailing" constant="20" id="w3D-Ea-QQE"/>
                                         </constraints>
@@ -116,6 +119,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Lwe-yU-SdP"/>
                     <connections>
                         <outlet property="BottomTextView" destination="cd0-oW-5sb" id="AOq-mX-mHm"/>
                         <outlet property="TopTextView" destination="Wjl-RZ-qaJ" id="iMH-QO-66L"/>
@@ -123,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="124" y="111.57635467980296"/>
+            <point key="canvasLocation" x="-72" y="37"/>
         </scene>
         <!--Welcome to the new iAgree-->
         <scene sceneID="yZu-1R-amf">
@@ -184,6 +188,9 @@
                                         <color key="value" red="0.0" green="0.69019607839999997" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="quitTheApp:" destination="5oH-Gj-Xbf" eventType="touchUpInside" id="kKB-PX-f8w"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" name="ViewChanges"/>
@@ -371,7 +378,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMp-S1-3Zw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="120.8" y="847.53694581280797"/>
+            <point key="canvasLocation" x="-228" y="920"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YT2-4a-sMz">
@@ -389,12 +396,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="5oH-Gj-Xbf" kind="relationship" relationship="rootViewController" id="3og-SS-8Wb"/>
+                        <segue destination="5oH-Gj-Xbf" kind="relationship" relationship="rootViewController" id="9Yj-TO-LAL"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F7z-Bw-kcz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="950.72463768115949" y="469.56521739130437"/>
+            <point key="canvasLocation" x="867" y="606"/>
         </scene>
     </scenes>
     <resources>

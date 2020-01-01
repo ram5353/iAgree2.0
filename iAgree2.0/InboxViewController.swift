@@ -20,6 +20,8 @@ class InboxViewController: UIViewController {
             super.viewWillAppear(true)
         // Hide the back button
                 tabBarController?.navigationItem.setHidesBackButton(true, animated:true);
+                self.tabBarController?.navigationItem.title = "Inbox"
+
             }
     
 
