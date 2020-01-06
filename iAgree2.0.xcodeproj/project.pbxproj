@@ -20,6 +20,7 @@
 		EE46E6E823A1167900B18C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE46E6E623A1167900B18C60 /* Main.storyboard */; };
 		EE46E6EA23A1167D00B18C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE46E6E923A1167D00B18C60 /* Assets.xcassets */; };
 		EE46E6ED23A1167D00B18C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE46E6EB23A1167D00B18C60 /* LaunchScreen.storyboard */; };
+		EE8D862023C3AB5800904878 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D861F23C3AB5800904878 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		EE46E6E923A1167D00B18C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE46E6EC23A1167D00B18C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE46E6EE23A1167D00B18C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8D861F23C3AB5800904878 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				81E1C8C623BD0A8000C8422E /* OutboxViewController.swift */,
 				81E1C8C823BD0A9200C8422E /* HistoryViewController.swift */,
 				81E1C8CA23BD0AA000C8422E /* MoreViewController.swift */,
+				EE8D861F23C3AB5800904878 /* PageViewController.swift */,
 			);
 			path = iAgree2.0;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E1C8CB23BD0AA000C8422E /* MoreViewController.swift in Sources */,
+				EE8D862023C3AB5800904878 /* PageViewController.swift in Sources */,
 				81AA822523B9F45B0054FFF6 /* ViewController1.swift in Sources */,
 				81E1C8C523BD096A00C8422E /* InboxViewController.swift in Sources */,
 				81AA822923BA07A20054FFF6 /* RoundButton.swift in Sources */,
