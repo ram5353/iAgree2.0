@@ -31,8 +31,6 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         }
         self.delegate = self
         configurePageControl()
-
-        // Do any additional setup after loading the view.
     }
     
     
