@@ -11,8 +11,9 @@ import UIKit
 class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource{
 
     lazy var orderedViewControllers: [UIViewController] = {
-        return [self.newVC(viewcontroller: "sbRed"), self.newVC(viewcontroller: "sbBlue"),
-        self.newVC(viewcontroller: "ssGreen")]
+        return [self.newVC(viewcontroller: "firstPage"),
+                self.newVC(viewcontroller: "secondPage"),
+                self.newVC(viewcontroller: "thirdPage")]
     }()
     
     var pageControl = UIPageControl()
@@ -34,13 +35,14 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         // Do any additional setup after loading the view.
     }
     
+    
     func configurePageControl() {
         pageControl = UIPageControl(frame: CGRect(x: 0, y: UIScreen.main.bounds.maxY - 50, width: UIScreen.main.bounds.width , height: 50 ))
         pageControl.numberOfPages = orderedViewControllers.count
         pageControl.currentPage = 0
         pageControl.tintColor = UIColor.black
         pageControl.pageIndicatorTintColor = UIColor.black
-        pageControl.currentPageIndicatorTintColor = UIColor.blue
+        pageControl.currentPageIndicatorTintColor = #colorLiteral(red: 0, green: 0.6901960784, blue: 0.9411764706, alpha: 1)
         self.view.addSubview(pageControl)
         
     }
@@ -100,16 +102,6 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         
         
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 

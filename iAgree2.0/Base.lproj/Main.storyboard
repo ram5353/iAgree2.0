@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZKZ-VK-yEt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZKZ-VK-yEt">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="sbRed" id="BYZ-38-t0r" customClass="ViewController" customModule="iAgree2_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="firstPage" id="BYZ-38-t0r" customClass="ViewController" customModule="iAgree2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -127,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-72" y="37"/>
+            <point key="canvasLocation" x="5648" y="479"/>
         </scene>
         <!--Welcome to the new iAgree-->
         <scene sceneID="yZu-1R-amf">
@@ -217,7 +217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZb-eI-hjO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1857.9710144927537" y="469.56521739130437"/>
+            <point key="canvasLocation" x="1801" y="584"/>
         </scene>
         <!--Outbox-->
         <scene sceneID="6iY-3I-wih">
@@ -249,7 +249,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OyH-iS-PKb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2858" y="1149"/>
+            <point key="canvasLocation" x="3806" y="2087"/>
         </scene>
         <!--History-->
         <scene sceneID="eiD-Cp-Rvz">
@@ -291,37 +291,7 @@
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kUs-rG-qlT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1338" y="1373"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="0z1-8i-eyJ">
-            <objects>
-                <viewController storyboardIdentifier="ssGreen" id="Akq-NM-b9J" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="16p-b6-E8E">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="WcM-lb-qbV"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FS2-kU-3X7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5211.594202898551" y="919.56521739130437"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="mD7-RB-Oxf">
-            <objects>
-                <viewController id="Gdc-ow-IZF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xZe-C5-q6P">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="0ky-6z-4VZ"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uem-MD-nUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5955.072463768116" y="1082.608695652174"/>
+            <point key="canvasLocation" x="4786" y="254"/>
         </scene>
         <!--Inbox-->
         <scene sceneID="zTS-kK-IV1">
@@ -342,12 +312,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gFS-Zc-Iwk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2859" y="255"/>
+            <point key="canvasLocation" x="2775" y="584"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EiS-eE-9bJ">
             <objects>
-                <viewController storyboardIdentifier="sbBlue" id="P3z-rl-M98" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondPage" id="P3z-rl-M98" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AAp-Rf-GAM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -418,7 +388,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMp-S1-3Zw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-228" y="920"/>
+            <point key="canvasLocation" x="5648" y="1251"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YT2-4a-sMz">
@@ -442,6 +412,93 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F7z-Bw-kcz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="867" y="606"/>
+        </scene>
+        <!--PageControllerPage-->
+        <scene sceneID="Hbs-u0-odx">
+            <objects>
+                <viewController storyboardIdentifier="thirdPage" title="PageControllerPage" id="7ws-38-ory" customClass="ViewController1" customModule="iAgree2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eYM-BG-W6V">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDz-mr-tyO">
+                                <rect key="frame" x="20" y="56" width="374" height="500"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0d-eW-fvH">
+                                <rect key="frame" x="20" y="588" width="374" height="48"/>
+                                <color key="backgroundColor" red="0.0" green="0.69019607839999997" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="Jvc-tY-gF8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Accept">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g48-Pc-aH5" customClass="RoundButton" customModule="iAgree2_0" customModuleProvider="target">
+                                <rect key="frame" x="20" y="656" width="374" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="S1Z-8S-mL6"/>
+                                </constraints>
+                                <state key="normal" title="Decline and leave app">
+                                    <color key="titleColor" red="0.0" green="0.69019607839999997" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.69019607839999997" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="quitTheApp:" destination="7ws-38-ory" eventType="touchUpInside" id="db5-yB-ljf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="ViewChanges"/>
+                        <constraints>
+                            <constraint firstItem="g48-Pc-aH5" firstAttribute="leading" secondItem="VWa-tJ-IjM" secondAttribute="leading" constant="20" id="1dO-xO-mFV"/>
+                            <constraint firstItem="m0d-eW-fvH" firstAttribute="leading" secondItem="VWa-tJ-IjM" secondAttribute="leading" constant="20" id="EZa-kL-T6w"/>
+                            <constraint firstItem="KDz-mr-tyO" firstAttribute="leading" secondItem="VWa-tJ-IjM" secondAttribute="leading" constant="20" id="HpQ-Cw-xDw"/>
+                            <constraint firstItem="VWa-tJ-IjM" firstAttribute="trailing" secondItem="KDz-mr-tyO" secondAttribute="trailing" constant="20" id="ILd-9I-QUM"/>
+                            <constraint firstItem="VWa-tJ-IjM" firstAttribute="bottom" secondItem="KDz-mr-tyO" secondAttribute="bottom" constant="180" id="Uos-Os-P9E"/>
+                            <constraint firstItem="KDz-mr-tyO" firstAttribute="top" secondItem="VWa-tJ-IjM" secondAttribute="top" constant="56" id="YfG-3k-CAT"/>
+                            <constraint firstItem="g48-Pc-aH5" firstAttribute="top" secondItem="m0d-eW-fvH" secondAttribute="bottom" constant="20" id="bbZ-vo-Z8p"/>
+                            <constraint firstItem="VWa-tJ-IjM" firstAttribute="trailing" secondItem="m0d-eW-fvH" secondAttribute="trailing" constant="20" id="kVB-Rd-voC"/>
+                            <constraint firstItem="VWa-tJ-IjM" firstAttribute="trailing" secondItem="g48-Pc-aH5" secondAttribute="trailing" constant="20" id="qrJ-VQ-L8p"/>
+                            <constraint firstItem="m0d-eW-fvH" firstAttribute="top" secondItem="KDz-mr-tyO" secondAttribute="bottom" constant="32" id="zAo-ul-we7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VWa-tJ-IjM"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Welcome to the new iAgree" id="DiZ-ib-5AM"/>
+                    <connections>
+                        <outlet property="AcceptButton" destination="m0d-eW-fvH" id="sRe-Xl-EqD"/>
+                        <outlet property="DeclineButton" destination="g48-Pc-aH5" id="kn4-Q2-kZa"/>
+                        <outlet property="TermsAndConditionsView" destination="KDz-mr-tyO" id="Sdh-dl-LxU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E6V-nF-ynI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5648" y="-215"/>
         </scene>
     </scenes>
     <resources>
